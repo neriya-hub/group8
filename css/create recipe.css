@@ -1,0 +1,173 @@
+ /* customized your cake*/
+.body {
+  background-color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ .customized-header{
+      padding: 20px;
+    text-align: left;
+ }
+
+ .div-customized-header{
+     display: flex;
+  justify-content: space-between;
+   align-items: center;
+ }
+
+
+ .logo {
+  align-items: center;
+   width: 110px;
+   height: auto;
+   text-align: center;
+}
+
+
+  .home-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8d2773;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+    text-align: right;
+}
+
+
+.order-link{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8d2773;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+}
+
+.about-link{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8d2773;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+}
+
+.contact-link{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8d2773;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+}
+
+  .login-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8d2773;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+}
+
+.register-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #b9689f;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+}
+
+.button-link:hover {
+  background-color: #8d2773;
+}
+
+.customized-text{
+    background-color: #ffe5cc;
+  color: #281f1e;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+    text-align: center;
+}
+
+  .section {
+  display: flex;
+  justify-content: space-around;
+    align-items: flex-start; /* Align sections to the left */
+  position: relative;
+  padding: 20px;
+  text-align: left;
+    flex-direction: column;
+    background-color: #ffffff;
+  color: #100d0d;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ .choose{
+   background-color: #f3e3e3;
+  color: #100d0d;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 0;
+  text-align: left;
+  max-width: 400px;
+   margin-bottom: 10px;
+ }
+
+
+ .payment-link{
+     display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+}
+
+.button-link:hover {
+  background-color: #4CAF50;
+}
+
+   .footer {
+  background-color: #ffe5cc;
+  color: #5D4C46;
+  padding: 10px;
+  text-align: center;
+  }
+
+   .photo-right {
+  position: absolute;
+  top:250px ;
+  right: 25px;
+  width: 600px;
+  height: auto;
+}
+
+
+   @media (max-width: 700px) {
+     .photo-right{
+       display: none;
+     }
+     .home-button, .order-link,.contact-link, .about-link, .login-link, .register-link{
+       padding: 6px 6px;
+     }
+
+   }
