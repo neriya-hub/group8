@@ -1,6 +1,6 @@
 # group8
-נריה כהן ויואב ברהנו
-part 2
+### נריה כהן ויואב ברהנו
+### part 2
 
 ## Cake for U:
 Web app built by using HTML, CSS, JS pages. 
