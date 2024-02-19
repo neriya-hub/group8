@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="css/Create%20Account.css">
+</head>
+
+<body class="body">
+
+    <header class="register-header">
+      <div class="div-register">
+        <img src="pics/logo.png" alt="Logo" class="logo">
+
+        <div>
+          <a href="%231%20Home%20Page.html" class="home-button">Home</a>
+        </div>
+      </div>
+
+    </header>
+
+    <section class="section">
+
+      <div class="register-content">
+          <h1 class="register-text">Sign Up</h1>
+        <form action="process-registration.php" method="post" class="register-form">
+            <label for="name" class="register-label">Name:</label>
+            <input type="text" id="name" name="name" required class="register-input">
+
+            <label for="age" class="register-label">Age:</label>
+            <input type="number" id="age" name="age" min="1" max="120" required class="register-input">
+
+            <label for="email" class="register-label">Email:</label>
+            <input type="email" id="email" name="email" required class="register-input">
+
+            <label for="phone" class="register-label">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{7}" placeholder="123-4567890" required class="register-input">
+
+            <label for="password" class="register-label">Password:</label>
+            <input type="password" id="password" name="password" required class="register-input">
+
+            <label for="password" class="register-label">Confirm Password:</label>
+            <input type="password" id="confirmpassword" name="confirmpassword" required class="register-input">
+
+
+
+            <button type="submit" class="submit-button">Create Account</button>
+        </form>
+
+         <div class="login-container">
+            <span>Already have an account? <a href="%232%20sign%20in%20.html" class="login-link">Login</a></span>
+         </div>
+
+       </div>
+    </section>
+
+    <footer class="footer">
+      <img src="pics/3-register%202.jpg" alt="Photo Right" class="photo-right">
+      <p>&copy; 2024 Cake For You . All rights reserved.</p>
+    </footer>
+ <script src="js/create account script.js"></script>
+
+
+</body>
+
+</html>
+
+

@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/contact%20us.css">
+
+</head>
+
+<body class="body">
+
+    <header class="contact-header">
+      <div class="div-contact-header">
+        <img src="pics/logo.png" alt="Logo" class="logo">
+        <div>
+          <a href="%231%20Home%20Page.html" class="home-button">Home</a>
+          <a href="%234%20orders%20menu%20.html" class="order-link">Orders Menu</a>
+          <a href="%235%20create%20recipe%20.html" class="customized-link">Create Recipe</a>
+          <a href="%238%20about%20us%20.html" class="about-link">About Us</a>
+       </div>
+        <div>
+          <a href="%232%20sign%20in%20.html" class="login-link">Login</a>
+           <a href="%233%20create%20account.html" class="register-link">Sign Up</a>
+        </div>
+      </div>
+        <h1 class="contact-text">Contact Us</h1>
+    </header>
+
+    <section class="section">
+      <div class="contact-content">
+        <form action="process-contact.php" method="post" class="contact-form">
+            <label for="name" class="contact-label">Your Name:</label>
+            <input type="text" id="name" name="name" required class="contact-input">
+
+            <label for="email" class="contact-label">Your Email:</label>
+            <input type="email" id="email" name="email" required class="contact-input">
+
+            <label for="message" class="contact-label">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required class="contact-input-text"></textarea>
+
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+         </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Cake For You. All rights reserved.</p>
+    </footer>
+
+ <script src="js/contact%20us.js"></script>
+
+
+</body>
+
+</html>
